@@ -1,0 +1,27 @@
+# Operating-system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local builds and caches
+_site/
+.jekyll-cache/
+.sass-cache/
+tmp/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+
+# Large packet captures and raw scan data
+*.pcap
+*.pcapng
+*.nmap
+*.gnmap
+*.xml
+
