@@ -8,13 +8,17 @@
   <title>Maan | Cybersecurity Portfolio</title>
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="assets/js/interface.js" defer></script>
 </head>
 <body>
+  <div class="screen-noise" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="Maan portfolio home"><span class="brand-mark">M</span><span>Maan</span></a>
       <nav aria-label="Primary navigation">
+        <span class="nav-live"><i></i> Live</span>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
@@ -26,9 +30,10 @@
 
   <main id="main">
     <section class="hero" id="top">
+      <canvas class="matrix-canvas" id="matrix-canvas" aria-hidden="true"></canvas>
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Cybersecurity · Software Engineering · AI</p>
+          <p class="eyebrow"><span class="eyebrow-signal"></span> Cybersecurity · Software Engineering · AI</p>
           <h1>Building secure systems through <span>curiosity and evidence.</span></h1>
           <p class="hero-copy">I'm Maan, a Master's student in Cyber Security at Universiti Malaya. I document practical labs, careful technical analysis, and the lessons behind every result.</p>
           <div class="hero-actions">
@@ -36,16 +41,26 @@
             <a class="button secondary" href="https://github.com/cyber-danceeeee" rel="noreferrer">View GitHub</a>
           </div>
         </div>
-        <aside class="status-card" aria-label="Current focus">
-          <span class="status-dot"></span>
-          <p class="label">Current focus</p>
-          <h2>Offensive security foundations</h2>
-          <ul>
-            <li>Network enumeration</li>
-            <li>Isolated lab design</li>
-            <li>Security engineering</li>
-          </ul>
-          <p class="status-note">All demonstrations use authorised, controlled targets.</p>
+        <aside class="terminal-card" aria-label="Live portfolio console">
+          <div class="terminal-bar">
+            <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+            <span class="terminal-title">maan@portfolio:~</span>
+            <time id="live-clock" aria-label="Current Malaysia time">--:--:-- MYT</time>
+          </div>
+          <div class="terminal-body">
+            <p class="terminal-command"><span>$</span> ./portfolio --status</p>
+            <p class="terminal-output">identity: <strong>Maan</strong><br>focus: <strong>security_engineering</strong><br>status: <b>ONLINE</b></p>
+            <p class="terminal-command"><span>$</span> verify --scope authorised</p>
+            <p class="terminal-output">targets: localhost + isolated_lab<br>evidence: sanitised<br>policy: <b>PASS</b></p>
+            <div class="terminal-feed" aria-label="Rotating security status">
+              <span class="feed-prefix">&gt;</span>
+              <span id="terminal-text">initialising secure session...</span><span class="terminal-cursor" aria-hidden="true"></span>
+            </div>
+          </div>
+          <div class="terminal-metrics">
+            <div><span>Session uptime</span><strong id="session-uptime">00:00:00</strong></div>
+            <div><span>Trust boundary</span><strong>LOCAL LAB</strong></div>
+          </div>
         </aside>
       </div>
     </section>
