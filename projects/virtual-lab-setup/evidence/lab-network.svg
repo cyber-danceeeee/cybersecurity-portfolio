@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-labelledby="title desc">
+  <title id="title">Sanitised virtual lab network diagram</title>
+  <desc id="desc">The attacker and vulnerable target share a host-only network. Only the attacker has an optional controlled NAT path for updates.</desc>
+  <defs><style>.bg{fill:#091827}.box{fill:#102438;stroke:#3de0c5;stroke-width:2}.muted{fill:#0d1e30;stroke:#546b7c;stroke-width:2}.t{fill:#e8f0f7;font:700 22px system-ui}.s{fill:#9aabba;font:16px system-ui}.line{stroke:#3de0c5;stroke-width:4;fill:none}.dash{stroke:#ffcf70;stroke-width:3;stroke-dasharray:10 9;fill:none}</style></defs>
+  <rect class="bg" width="1000" height="520" rx="18"/>
+  <text class="s" x="50" y="52">SANITISED ARCHITECTURE · DOCUMENTATION ADDRESSES ONLY</text>
+  <rect class="box" x="70" y="130" width="250" height="145" rx="14"/><text class="t" x="105" y="184">Attacker guest</text><text class="s" x="105" y="220">Kali Linux</text><text class="s" x="105" y="248">192.0.2.10</text>
+  <rect class="box" x="680" y="130" width="250" height="145" rx="14"/><text class="t" x="715" y="184">Target guest</text><text class="s" x="715" y="220">Vulnerable Linux</text><text class="s" x="715" y="248">192.0.2.20</text>
+  <path class="line" d="M320 202H680"/><rect class="muted" x="360" y="172" width="280" height="62" rx="31"/><text class="t" x="397" y="211">Host-only network</text>
+  <rect class="muted" x="70" y="380" width="250" height="90" rx="14"/><text class="t" x="117" y="420">NAT updates</text><text class="s" x="116" y="449">enabled only when needed</text><path class="dash" d="M195 380V275"/>
+  <rect class="muted" x="680" y="380" width="250" height="90" rx="14"/><text class="t" x="725" y="420">Physical LAN</text><text class="s" x="718" y="449">no bridged target path</text><path class="dash" d="M805 380V290"/><path d="M780 315l50 50M830 315l-50 50" stroke="#ff7b88" stroke-width="7"/>
+</svg>
+

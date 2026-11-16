@@ -1,0 +1,11 @@
+title: Maan | Cybersecurity Portfolio
+description: Practical cybersecurity projects, learning reflections, and career goals.
+url: https://cyber-danceeeee.github.io
+baseurl: /cybersecurity-portfolio
+repository: cyber-danceeeee/cybersecurity-portfolio
+lang: en
+timezone: Asia/Kuala_Lumpur
+exclude:
+  - tmp
+  - LICENSE
+
