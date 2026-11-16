@@ -15,5 +15,5 @@ Previously studied **Artificial Intelligence** at [🇲🇴 University of Macau]
 ### Connect with me
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=social&logo=github)](https://github.com/cyber-danceeeee)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin)](https://www.linkedin.com/in/wang-xuan-0280a0450/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/wang-xuan-0280a0450/))
 [![Website](https://img.shields.io/badge/Website-🌐-blue?style=social)]([YOUR_WEBSITE_URL](https://docs.soranopro.com/))
