@@ -1,6 +1,6 @@
 # Hey 👋, I'm Maan
 
-<img align="right" src="https://github.com/cyber-danceeeee/cyber-danceeeee/blob/main/Pic/logo.png" width="260"/>
+<img align="right" src="[https://github.com/cyber-danceeeee/cyber-danceeeee/blob/main/Pic/logo.png](https://avatars.githubusercontent.com/u/73124128?v=4)" width="260"/>
 
 Master's student in **Cyber Security** at [🇲🇾 Universiti Malaya](https://www.um.edu.my/), passionate about cybersecurity, software engineering, and open-source technologies.
 
